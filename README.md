@@ -2,6 +2,8 @@
 
 Browser extensions for Chrome and Firefox that automatically activate AI Mode for Google, Bing, and Brave searches.
 
+![image](https://raw.githubusercontent.com/rene-dhemant/Search-AI-Mode-Extension/refs/heads/main/promo-marquee-1400x560.jpg)
+
 ## Project Overview
 
 The project consists of two browser extensions (Chrome MV3 and Firefox MV2) that automatically activate AI modes for **Google**, **Bing**, and **Brave** searches.
