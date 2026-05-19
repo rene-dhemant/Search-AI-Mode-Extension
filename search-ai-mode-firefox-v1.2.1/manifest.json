@@ -3,7 +3,7 @@
   "name": "Search AI Mode",
   "short_name": "AI Mode",
   "version": "1.2.1",
-  "description": "Automatically activates AI Mode for Google, Bing, and Brave searches by appending &udm=50 to Google URLs and redirecting Bing/Brave searches to their AI modes.",
+  "description": "Automatically activates AI Mode for Google, Bing (Copilot), and Brave (Ask) searches. Seamless, fast, and privacy-focused.",
   "permissions": [
     "webRequest",
     "webRequestBlocking",
@@ -33,7 +33,10 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "google-ai-mode@extension",
-      "strict_min_version": "57.0"
+      "strict_min_version": "79.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
     }
   }
 }
